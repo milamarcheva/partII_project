@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7080680-b132-47b2-a501-98e259ab5b8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/partII_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installation_checks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installation_checks/other_packages_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installation_checks/preprocessing_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installation_checks/other_packages_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/installation_checks/other_packages_check.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
