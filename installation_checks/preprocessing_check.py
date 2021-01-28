@@ -1,8 +1,8 @@
-# import spacy
-# import sys
-# import torch
-# from transformers import GPT2Tokenizer, GPT2LMHeadModel
-#
+import spacy
+import sys
+import torch
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
+
 #
 # # nlp = spacy.load('en_core_web_lg')
 # #
@@ -43,30 +43,30 @@
 # #     print("\n")
 # # #
 # #     #
-#
-# pretrained_weights = 'gpt2'
-#
-# tokenizer = GPT2Tokenizer.from_pretrained(pretrained_weights)
-# model = GPT2LMHeadModel.from_pretrained(pretrained_weights)
-# model.eval()
-#
-#
-# def show_probabilities(INPUT_TEXT):
-#     input_ids = torch.tensor([tokenizer.encode(INPUT_TEXT)])
-#
-#     with torch.no_grad():
-#         index = 0
-#         outputs = model(input_ids=input_ids)
-#         logits = outputs[0][0]
-#         probs = torch.softmax(logits, 1)
-#         for index in range(0, len(input_ids[0])):
-#             token_id = input_ids[0][index]
-#             probability = probs[index - 1][token_id].item()
-#             print(f"Probability for the token \"{tokenizer.decode(token_id.item())}\" is {probability}")
-#     print("\n")
-#
-#
-# show_probabilities('To be or not to be <|endoftext|>')
-# show_probabilities('<|startoftext|> To be or not to be <|endoftext|>')
-# show_probabilities('<|endoftext|> To be or not to be <|endoftext|>')
+
+pretrained_weights = 'gpt2'
+
+model = GPT2LMHeadModel.from_pretrained(pretrained_weights)
+model.eval()
+
+tokenizer = GPT2Tokenizer.from_pretrained(pretrained_weights)
+
+def show_probabilities(INPUT_TEXT):
+    input_ids = torch.tensor([tokenizer.encode(INPUT_TEXT)])
+
+    with torch.no_grad():
+        index = 0
+        outputs = model(input_ids=input_ids)
+        logits = outputs[0][0]
+        probs = torch.softmax(logits, 1)
+        for index in range(0, len(input_ids[0])):
+            token_id = input_ids[0][index]
+            probability = probs[index - 1][token_id].item()
+            print(f"Probability for the token \"{tokenizer.decode(token_id.item())}\" is {probability}")
+    print("\n")
+
+
+show_probabilities('To be or not to be <|endoftext|>')
+show_probabilities('<|startoftext|> To be or not to be <|endoftext|>')
+show_probabilities('<|endoftext|> To be or not to be <|endoftext|>')
 # show_probabilities('Hello world is so wierd?')
