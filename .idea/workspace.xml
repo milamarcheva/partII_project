@@ -20,19 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7080680-b132-47b2-a501-98e259ab5b8b" name="Default Changelist" comment="Updates 28/01">
-      <change afterPath="$PROJECT_DIR$/installation_checks/hc_checks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfile_chain_all" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analysis/narrative_flow_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/evaluation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/evaluation/eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/preprocessing/preprocessing_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/hc_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hc_analysis.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installation_checks/preprocessing_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/installation_checks/preprocessing_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/concreteness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/concreteness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/narrative_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/narrative_flow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/preprocessing_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/eval.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +58,7 @@
       <recent name="C:\Users\milam\Desktop\partII_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.concreteness">
+  <component name="RunManager" selected="Python.eval">
     <configuration name="concreteness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataset_preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/evaluation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/dataset_preprocessing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/evaluation/eval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.eval" />
         <item itemvalue="Python.concreteness" />
         <item itemvalue="Python.hc_checks" />
         <item itemvalue="Python.liwc" />
         <item itemvalue="Python.dataset_preprocessing (1)" />
-        <item itemvalue="Python.dataset_preprocessing" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +183,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603986314162</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updates 28/01">
+      <created>1611824017002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611824017002</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,28 +228,28 @@
     </state>
     <state x="-1180" y="265" key="FileChooserDialogImpl/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1606417470799" />
     <state x="-1180" y="266" key="FileChooserDialogImpl/0.0.1280.680/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604398396452" />
-    <state width="1899" height="362" key="GridCell.Tab.0.bottom" timestamp="1611610137190">
+    <state width="1899" height="362" key="GridCell.Tab.0.bottom" timestamp="1611850702410">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1899" height="362" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611610137190" />
+    <state width="1899" height="362" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611850702410" />
     <state width="1259" height="280" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
     <state width="1224" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604167034841" />
-    <state width="1899" height="362" key="GridCell.Tab.0.center" timestamp="1611610137190">
+    <state width="1899" height="362" key="GridCell.Tab.0.center" timestamp="1611850702410">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1899" height="362" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611610137190" />
+    <state width="1899" height="362" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611850702410" />
     <state width="1259" height="280" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
     <state width="1224" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604167034841" />
-    <state width="1899" height="362" key="GridCell.Tab.0.left" timestamp="1611610137190">
+    <state width="1899" height="362" key="GridCell.Tab.0.left" timestamp="1611850702410">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1899" height="362" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611610137190" />
+    <state width="1899" height="362" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611850702410" />
     <state width="1259" height="280" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
     <state width="1224" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604167034840" />
-    <state width="1899" height="362" key="GridCell.Tab.0.right" timestamp="1611610137190">
+    <state width="1899" height="362" key="GridCell.Tab.0.right" timestamp="1611850702410">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1899" height="362" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611610137190" />
+    <state width="1899" height="362" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611850702410" />
     <state width="1259" height="280" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
     <state width="1224" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604167034841" />
     <state x="-1707" y="3" key="SettingsEditor" timestamp="1608488505559">
