@@ -1,13 +1,14 @@
 import pandas as pd
 import scipy.stats
 import numpy as np
+from math import sqrt
 from ast import literal_eval
 from collections import Counter
 
 hc_analysis = pd.read_csv(r'../../data/hc_analysis.csv')
 hc_copy = hc_analysis.copy()
 
-hc_eval = hc_copy[['id', 'label', 'summary', 'concreteness', 'analytic', 'tone', 'i', 'posemo', 'negemo','cogproc']]
+hc_eval = hc_copy[['id', 'label', 'summary', 'concreteness', 'analytic', 'tone', 'i', 'posemo', 'negemo','cogproc', 'avg_narrative_flow_s']]
 #print(len(hc_eval))
 
 
@@ -72,25 +73,31 @@ def paired_t_test(duplicates, metric):
             id_r = imagined_recalled_ids[id_i]
             imagined[i] = hc_imagined[hc_imagined.id==id_i][metric].item()
             recalled[i] = hc_recalled[hc_recalled.id==id_r][metric].item()
-
-    effect_size = np.mean(recalled) - np.mean(imagined)
+    size = len(imagined)
+    pooled_std = sqrt((size - 1)*(np.var(imagined)+np.var(recalled))/(2*size - 2))
+    effect_size = (np.mean(imagined) - np.mean(recalled))/pooled_std
     t_metric = scipy.stats.ttest_rel(imagined, recalled)
     return t_metric, effect_size
 
-metrics = {'concreteness', 'analytic', 'tone', 'i',	'posemo', 'negemo',	'cogproc'}
+metrics = {'concreteness', 'analytic', 'tone', 'i',	'posemo', 'negemo',	'cogproc', 'avg_narrative_flow_s'}
+metric_scores = dict()
 
 for m in metrics:
     ttest1,  es1 = paired_t_test(True, m)
     tstat1, pvalue1 = ttest1
+    #direction1 =
     ttest2, es2 = paired_t_test(False, m)
     tstat2, pvalue2 = ttest2
-
+    scores1 = [tstat1, pvalue1, es1]
+    scores2 = [tstat2, pvalue2, es2]
     #print(m+' with duplicates: ', paired_t_test(True, m))
     print(m+' with duplicates:  t-statistic: ', tstat1, ', p-value: ', pvalue1, ' effect size: ', es1)
-    print(m+' without duplicates: t-statistic: ', tstat2, ', p-value: ', pvalue2, ' effect size: ', es2)
+    print(m+' without duplicates: t-statistic: ', tstat2, ', p-value: ', pvalue2,' effect size: ', es2)
+    metric_scores[m+' with duplicates']= scores1
+    metric_scores[m+' without duplicates'] = scores2
 
 
+hc_metrics = pd.DataFrame(metric_scores,  index=['t-statistic', 'pvalue', 'effect size'])
 
-# t_LIWC_analytic = scipy.stats.ttest_rel(hc_eval_imagined.analytic, hc_eval_recalled.analytic)
-# hc_eval['analytic'] = t_LIWC_analytic
 hc_eval.to_csv(r'../../data/hc_eval.csv', index=False)
+hc_metrics.to_csv(r'../../data/hc_metrics.csv')
