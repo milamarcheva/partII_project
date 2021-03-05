@@ -1,5 +1,4 @@
 import pandas as pd
-
 hc = pd.read_csv(r'../../data/hc_analysis.csv')
 concreteness_lexicon = pd.read_excel(r'../../data/concreteness.xlsx', engine='openpyxl')
 
@@ -11,7 +10,6 @@ lex = dict(zip(concreteness_lexicon.Word,  concreteness_lexicon.Conc_M))
 
 # Look for token encoding in vocab
 #deals with the bigrams
-
 def get_concreteness_score(story):
     n = len(story)
     count = 0
@@ -35,6 +33,14 @@ def get_concreteness_score(story):
     avg = sum / count
     return avg
 
-hc['concreteness'] = [get_concreteness_score(story) for story in hc['tokens_concreteness']]
 
-hc.to_csv(r'../../data/hc_analysis.csv', index=False)
+story_tokens = ['the','day', 'start', 'nicely', 'with', 'a', 'slice','of','freshly','baked', 'banana','bread']
+score_function = get_concreteness_score(story_tokens)
+# print(score_function)
+score_correct =35.47/12
+#print(score_correct)
+assert score_function == score_correct
+
+# hc['concreteness'] = [get_concreteness_score(story) for story in hc['tokens_concreteness']]
+#
+# hc.to_csv(r'../../data/hc_analysis.csv', index=False)

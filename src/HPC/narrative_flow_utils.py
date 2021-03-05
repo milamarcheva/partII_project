@@ -6,7 +6,12 @@ from transformers import GPT2LMHeadModel
 
 eot_id = 50256
 
+device = 'cpu'
+if torch.cuda.is_available():
+    device = 'cuda'
+
 model = GPT2LMHeadModel.from_pretrained('gpt2')
+model = model.to(device)
 model.eval()
 
 
@@ -99,11 +104,11 @@ def _get_story_sentences_logprobs_chain(context_type, encoded_context, encoded_s
 def get_stories_logprobs_bag(encoded_contexts, inputs):
     n = len(encoded_contexts)
     #logprobs_bag = [_get_story_sentences_logprobs_bag(encoded_contexts[i], inputs[i]) for i in range(n)]
-    #logprobs_bag = [0]*n
-    logprobs_bag = Parallel(n_jobs=2)(delayed(_get_story_sentences_logprobs_bag)(encoded_contexts[i], inputs[i]) for i in range(n))
-    #for i in range(n):
-    #    print('story #',i)
-    #    logprobs_bag[i] = _get_story_sentences_logprobs_bag(encoded_contexts[i], inputs[i])
+    logprobs_bag = [0]*n
+    #logprobs_bag = Parallel(n_jobs=2)(delayed(_get_story_sentences_logprobs_bag)(encoded_contexts[i], inputs[i]) for i in range(n))
+    for i in range(n):
+        print('story #',i)
+        logprobs_bag[i] = _get_story_sentences_logprobs_bag(encoded_contexts[i], inputs[i])
 
     return logprobs_bag
 
@@ -111,12 +116,12 @@ def get_stories_logprobs_bag(encoded_contexts, inputs):
 def get_stories_logprobs_chain(context_type, encoded_contexts, encoded_sentences, inputs):
     n = len(encoded_contexts)
     #logprobs_chain = [_get_story_sentences_logprobs_chain(context_type, encoded_contexts[i], encoded_sentences[i], inputs[i]) for i in range(n)]
-    #logprobs_chain = [0]*n
-    logprobs_chain = Parallel(n_jobs=4)(delayed(_get_story_sentences_logprobs_chain)(context_type,encoded_contexts[i], encoded_sentences[i], inputs[i]) for i in range(n))
-    #for i in range(n):
-        #print('story #',i)
-        #print(encoded_contexts[i])
-        #logprobs_chain[i] = _get_story_sentences_logprobs_chain(context_type,encoded_contexts[i], encoded_sentences[i], inputs[i])
+    logprobs_chain = [0]*n
+    #logprobs_chain = Parallel(n_jobs=4)(delayed(_get_story_sentences_logprobs_chain)(context_type,encoded_contexts[i], encoded_sentences[i], inputs[i]) for i in range(n))
+    for i in range(n):
+        print('story #',i)
+        print(encoded_contexts[i])
+        logprobs_chain[i] = _get_story_sentences_logprobs_chain(context_type,encoded_contexts[i], encoded_sentences[i], inputs[i])
     return logprobs_chain
 
 def get_stories_logprobs_chain_start(context_type, encoded_contexts, encoded_sentences, inputs, start, end):

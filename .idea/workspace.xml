@@ -20,22 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7080680-b132-47b2-a501-98e259ab5b8b" name="Default Changelist" comment="Updates 28/01">
-      <change afterPath="$PROJECT_DIR$/data/hc_metrics.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/id_story.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lpchain/lpchain_1000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lpchain/lpchain_2000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lpchain/lpchain_3000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lpchain/lpchain_4000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lpchain/lpchain_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lpchain/lpchain_6000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concretenss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partII_project_HPC/src/analysis/narrative_flow_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partII_project_HPC/src/preprocessing/preprocessing_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/chain1000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/chain2000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/chain3000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/chain4000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/chain5000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/chain6000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/logprob_bag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/logprob_chain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/logprob_chain_all_prev_sents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/narrative_flow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPC/narrative_flow_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/analysis/concreteness_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/analysis/concreteness_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/evaluation/plot_concretness.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/LIWC_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/LIWC_results.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hc_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hc_analysis.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hc_eval.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hc_eval.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partII_project_HPC" beforeDir="false" afterPath="$PROJECT_DIR$/partII_project_HPC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/liwc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/liwc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/narrative_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/narrative_flow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partII_project_HPC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/partII_project_HPC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partII_project_HPC/data/hc_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/partII_project_HPC/data/hc_analysis.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partII_project_HPC/installation_checks/preprocessing_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/partII_project_HPC/installation_checks/preprocessing_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partII_project_HPC/src/analysis/concreteness.py" beforeDir="false" afterPath="$PROJECT_DIR$/partII_project_HPC/src/analysis/concreteness.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partII_project_HPC/src/analysis/narrative_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/partII_project_HPC/src/analysis/narrative_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partII_project_HPC/src/preprocessing/dataset_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/partII_project_HPC/src/preprocessing/dataset_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partII_project_HPC/src/preprocessing/preprocessing_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/chain1000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/chain2000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/chain3000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/chain4000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/chain5000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/chain6000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob_bag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob_chain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob_chain_all_prev_sents.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/narrative_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/narrative_flow_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/concreteness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/concreteness.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +77,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jYgCDDKfy5ZZk9VRCVSEeibySf" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -71,7 +94,7 @@
       <recent name="C:\Users\milam\Desktop\partII_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.concreteness">
+  <component name="RunManager" selected="Python.plot_concretness">
     <configuration name="concreteness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataset_reshaping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="concretness_test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/preprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/preprocessing/dataset_reshaping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/analysis/concretness_test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="plot_concretness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/evaluation/eval.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/evaluation/plot_concretness.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,55 +158,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="liwc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for concreteness_test.ConcretenessTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/analysis/liwc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;concreteness_test.ConcretenessTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="narrative_flow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in concreteness_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/analysis/narrative_flow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/analysis/concreteness_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.plot_concretness" />
         <item itemvalue="Python.concreteness" />
-        <item itemvalue="Python.eval" />
-        <item itemvalue="Python.narrative_flow" />
-        <item itemvalue="Python.liwc" />
-        <item itemvalue="Python.dataset_reshaping" />
+        <item itemvalue="Python tests.Unittests in concreteness_test.py" />
+        <item itemvalue="Python.concretness_test2" />
+        <item itemvalue="Python tests.Unittests for concreteness_test.ConcretenessTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,48 +241,42 @@
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1186" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1608311637033" />
-    <state x="-1230" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605537888221">
-      <screen x="-1920" y="3" width="1920" height="1040" />
-    </state>
-    <state x="-1230" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1605537888221" />
     <state x="-1180" y="265" key="FileChooserDialogImpl" timestamp="1606417470799">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1180" y="265" key="FileChooserDialogImpl/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1606417470799" />
-    <state x="-1180" y="266" key="FileChooserDialogImpl/0.0.1280.680/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604398396452" />
-    <state width="1899" height="146" key="GridCell.Tab.0.bottom" timestamp="1612525780959">
+    <state width="1899" height="167" key="GridCell.Tab.0.bottom" timestamp="1614880625516">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1899" height="146" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1612525780959" />
+    <state width="1899" height="167" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1614880625516" />
     <state width="1259" height="280" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
-    <state width="1224" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604167034841" />
-    <state width="1899" height="146" key="GridCell.Tab.0.center" timestamp="1612525780959">
+    <state width="1899" height="167" key="GridCell.Tab.0.center" timestamp="1614880625516">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1899" height="146" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1612525780959" />
+    <state width="1899" height="167" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1614880625516" />
     <state width="1259" height="280" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
-    <state width="1224" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604167034841" />
-    <state width="1899" height="146" key="GridCell.Tab.0.left" timestamp="1612525780959">
+    <state width="1899" height="167" key="GridCell.Tab.0.left" timestamp="1614880625516">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1899" height="146" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1612525780959" />
+    <state width="1899" height="167" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1614880625516" />
     <state width="1259" height="280" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
-    <state width="1224" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604167034840" />
-    <state width="1899" height="146" key="GridCell.Tab.0.right" timestamp="1612525780959">
+    <state width="1899" height="167" key="GridCell.Tab.0.right" timestamp="1614880625516">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1899" height="146" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1612525780959" />
+    <state width="1899" height="167" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1614880625516" />
     <state width="1259" height="280" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
-    <state width="1224" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604167034841" />
     <state x="-1707" y="3" key="SettingsEditor" timestamp="1608488505559">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1707" y="3" key="SettingsEditor/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1608488505559" />
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603986411465" />
     <state x="-1368" y="255" key="Vcs.Push.Dialog.v2" timestamp="1611823894912">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1368" y="255" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611823894912" />
+    <state x="-1353" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613654847330">
+      <screen x="-1920" y="3" width="1920" height="1040" />
+    </state>
+    <state x="-1353" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1613654847330" />
     <state x="-1782" y="3" width="1572" height="1028" key="dock-window-1" timestamp="1610441495674">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
