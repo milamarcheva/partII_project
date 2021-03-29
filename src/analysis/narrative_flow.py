@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from ast import literal_eval
 from src.analysis.narrative_flow_utils import get_narrative_flow
+
 hc = pd.read_csv(r'../../data/hc_analysis.csv')
 
 encoded_sentences_len = [literal_eval(l) for l in hc['encoded_sentences_len']]

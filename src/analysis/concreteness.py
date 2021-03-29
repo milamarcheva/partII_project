@@ -23,7 +23,7 @@ def get_concreteness_score(story):
             if t1t2 in lex:
                 sum += lex[t1t2]
                 i += 2
-                count += 2
+                count += 1
                 continue
         if t1 in lex:
             sum += lex[t1]

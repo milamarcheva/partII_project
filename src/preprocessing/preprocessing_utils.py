@@ -3,7 +3,7 @@ from transformers import GPT2Tokenizer
 
 nlp = spacy.load('en_core_web_lg')
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2', add_prefix_space=True)
-eot_id = tokenizer.eos_token_id
+eot_id = tokenizer.eos_token_id #used in narrative_flow_utils
 
 
 def get_docs(hc):
@@ -39,8 +39,8 @@ def get_sentences(docs):
     return sentences
 
 
-def _encode_list_of_inputs(inputs):
-    encoded_inputs = [tokenizer.encode(input) for input in inputs]
+def _encode_list_of_inputs(sentences_list):
+    encoded_inputs = [tokenizer.encode(sentence) for sentence in sentences_list]
     return encoded_inputs
 
 

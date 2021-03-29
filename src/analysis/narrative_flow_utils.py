@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from transformers import GPT2Tokenizer, GPT2LMHeadModel
+from transformers import GPT2LMHeadModel
 from src.preprocessing.preprocessing_utils import eot_id
 
 model = GPT2LMHeadModel.from_pretrained('gpt2')
