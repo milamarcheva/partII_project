@@ -21,44 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7080680-b132-47b2-a501-98e259ab5b8b" name="Default Changelist" comment="Updates 28/01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hc_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hc_analysis.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hc_eval.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hc_eval.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hc_metrics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hc_metrics.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hc_analysis.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/installation_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/installation_checks/hc_checks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/installation_checks/imports_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/installation_checks/other_packages_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/installation_checks/preprocessing_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/partII_project_HPC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/chain1000.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/chain2000.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/chain3000.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/chain4000.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/chain5000.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/chain6000.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/logprob_bag.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/logprob_chain.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/logprob_chain_all_prev_sents.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/narrative_flow.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HPC/narrative_flow_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain1000.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain1000.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain2000.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain2000.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain3000.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain3000.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain4000.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain4000.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain5000.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain5000.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain6000.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/deprecated/chain6000.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/logprob_chain.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/deprecated/logprob_chain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/logprob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/concreteness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/concreteness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/narrative_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/narrative_flow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analysis/narrative_flow_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/narrative_flow_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/plot_concretness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/plot_concretness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/preprocessing_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/preprocessing_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/preprocessing_utils_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/preprocessing_utils_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611824017002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updates 28">
+      <created>1617218931391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617218931391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,9 +264,10 @@
     <state x="-1558" y="332" key="SettingsEditor/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617104481425" />
     <state x="2282" y="329" key="SettingsEditor/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617218907369" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1617007484935" />
-    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2" timestamp="1611823894912">
-      <screen x="-1920" y="3" width="1920" height="1040" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617218944420">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617218944420" />
     <state x="-1368" y="255" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1611823894912" />
     <state x="-1353" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613654847330">
       <screen x="-1920" y="3" width="1920" height="1040" />
