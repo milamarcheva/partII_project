@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7080680-b132-47b2-a501-98e259ab5b8b" name="Default Changelist" comment="Updates 28/01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/narrative_flow_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/narrative_flow_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
