@@ -1,0 +1,330 @@
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.
+slurmstepd: error: *** STEP 34109244.0 ON cpu-e-550 CANCELLED AT 2021-02-01T18:00:27 DUE TO TIME LIMIT ***
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  (len(rtype_registry), rtype))
+/home/mmm67/venvs/partII/lib/python3.6/site-packages/joblib/externals/loky/backend/resource_tracker.py:320: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  (len(rtype_registry), rtype))

@@ -1,0 +1,20 @@
+Changed directory to /home/mmm67.
+
+JobID: 33995554
+======
+Time: Mon 25 Jan 22:28:27 GMT 2021
+Running on master node: cpu-e-56
+Current directory: /home/mmm67
+
+Nodes allocated:
+================
+cpu-e-56 cpu-e-147 cpu-e-160 cpu-e-474 cpu-e-477 cpu-e-608 cpu-e-662 cpu-e-710
+
+numtasks=256, numnodes=8, mpi_tasks_per_node=32 (OMP_NUM_THREADS=1)
+
+Executing command:
+==================
+mpirun -ppn 32 -np 256 python partII_project/src/analysis/logprob_chain_all_prev_sents.py >logfile_chain_all 2>errfile_chain_all
+
+slurmstepd: error: *** JOB 33995554 ON cpu-e-56 CANCELLED AT 2021-01-26T10:28:39 DUE TO TIME LIMIT ***
+slurmstepd: error: task_p_post_term: rmdir(/sys/fs/cgroup/cpuset/slurm33995554/slurm33995554.4294967294_0) failed Device or resource busy

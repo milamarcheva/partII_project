@@ -1,0 +1,2 @@
+/var/spool/slurm/slurmd/job34863429/slurm_script: line 104: syntax error near unexpected token `('
+/var/spool/slurm/slurmd/job34863429/slurm_script: line 104: `echo -e "\nnumtasks=$numtasks, numnodes=$numnodes, mpi_tasks_per_node=$mpi_tasks_per_node (OMP_NUM_THREADS=$OMP_NUM_THREADS)"'

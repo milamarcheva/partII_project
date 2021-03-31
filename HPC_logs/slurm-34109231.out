@@ -1,0 +1,18 @@
+Changed directory to /home/mmm67.
+
+JobID: 34109231
+======
+Time: Mon  1 Feb 05:25:53 GMT 2021
+Running on master node: cpu-e-709
+Current directory: /home/mmm67
+
+Nodes allocated:
+================
+cpu-e-709 cpu-e-728
+
+numtasks=64, numnodes=2, mpi_tasks_per_node=32 (OMP_NUM_THREADS=1)
+
+Executing command:
+==================
+mpirun -ppn 32 -np 64 python partII_project/src/analysis/logprob_bag.py >logfile_bag 2>errfile_bag
+

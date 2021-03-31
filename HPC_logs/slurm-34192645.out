@@ -1,0 +1,20 @@
+Changed directory to /home/mmm67.
+
+JobID: 34192645
+======
+Time: Thu  4 Feb 04:20:26 GMT 2021
+Running on master node: cpu-e-338
+Current directory: /home/mmm67
+
+Nodes allocated:
+================
+cpu-e-338 cpu-e-345
+
+numtasks=64, numnodes=2, mpi_tasks_per_node=32 (OMP_NUM_THREADS=1)
+
+Executing command:
+==================
+mpirun -ppn 32 -np 64 python partII_project/src/analysis/chain1000.py >logfile_chain_1000 2>errfile_chain_1000
+
+slurmstepd: error: *** JOB 34192645 ON cpu-e-338 CANCELLED AT 2021-02-04T07:06:50 ***
+slurmstepd: error: task_p_post_term: rmdir(/sys/fs/cgroup/cpuset/slurm34192645/slurm34192645.4294967294_0) failed Device or resource busy
