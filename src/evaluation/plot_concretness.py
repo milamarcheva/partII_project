@@ -84,34 +84,4 @@ ax[3].title.set_text('Difference between recalled and imagined, no duplicates')
 
 plt.show()
 
-#
-#
-# def paired_t_test(duplicates, metric):
-#     if not duplicates:
-#         #imagined_ids_first = [imagined_ids[0] for imagined_ids in list(recalled_imagined_ids.values())]
-#         # recalled = hc_recalled[metric]
-#         # imagined = hc_imagined[hc_imagined.id in imagined_ids_first][metric]
-#         n = len(recalled_imagined_ids.keys())
-#         recalled = []
-#         imagined = []
-#         for id_r in recalled_imagined_ids:
-#             id_i = recalled_imagined_ids[id_r][0]
-#             recalled.append(hc_recalled[hc_recalled.id==id_r][metric].item())
-#             imagined.append(hc_imagined[hc_imagined.id==id_i][metric].item())
-#     else:
-#         imagined_ids = list(imagined_recalled_ids.keys())
-#         recalled = [0]*len(imagined_ids)
-#         imagined = [0]*len(imagined_ids)
-#         for i in range(len(imagined_ids)):
-#             id_i = imagined_ids[i]
-#             id_r = imagined_recalled_ids[id_i]
-#             imagined[i] = hc_imagined[hc_imagined.id==id_i][metric].item()
-#             recalled[i] = hc_recalled[hc_recalled.id==id_r][metric].item()
-#     size = len(imagined)
-#     pooled_std = sqrt((size - 1)*(np.var(imagined)+np.var(recalled))/(2*size - 2))
-#     effect_size = (np.mean(imagined) - np.mean(recalled))/pooled_std
-#     t_metric = scipy.stats.ttest_rel(imagined, recalled)
-#     return t_metric, effect_size
-#
-# metrics = {'concreteness', 'analytic', 'tone', 'i',	'posemo', 'negemo',	'cogproc', 'avg_narrative_flow_s'}
-# metric_scores = dict()
+

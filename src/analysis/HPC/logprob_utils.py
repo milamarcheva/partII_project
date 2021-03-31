@@ -1,10 +1,10 @@
 import torch
-import numpy as np
-from ast import literal_eval
 from joblib import Parallel, delayed
-from transformers import GPT2LMHeadModel
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-eot_id = 50256
+#eot_id = 50256
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2', add_prefix_space=True)
+eot_id = tokenizer.eos_token_id #used in narrative_flow_utils
 
 device = 'cpu'
 if torch.cuda.is_available():
@@ -13,7 +13,6 @@ if torch.cuda.is_available():
 model = GPT2LMHeadModel.from_pretrained('gpt2')
 model = model.to(device)
 #model.eval()
-
 
 def _wrap_with_eot(ids):
     wrapped_list = [eot_id] + ids + [eot_id]
@@ -95,7 +94,7 @@ def _get_story_sentences_logprobs_chain(context_type, encoded_context, encoded_s
         for i in range(1, n):
             context_len = len(encoded_sentences_of_story[i - 1])
             story_sentences_logprobs[i] = _get_sentence_log_probability(inputs_for_story[i], context_len)
-    elif context_type == 'all_prev_sent':
+    elif context_type == 'all_prev_sents':
         for i in range(1,n):
             #print(inputs_for_story[i])
             #print(context_len)

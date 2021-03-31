@@ -2,13 +2,14 @@ import pandas as pd
 import scipy.stats
 import numpy as np
 from math import sqrt
+#from src.evaluation.eval_utils import
 from ast import literal_eval
 from collections import Counter
 
 hc_analysis = pd.read_csv(r'../../data/hc_analysis.csv')
 hc_copy = hc_analysis.copy()
 
-hc_eval = hc_copy[['id', 'label', 'summary', 'concreteness', 'analytic', 'tone', 'i', 'posemo', 'negemo','cogproc', 'avg_narrative_flow_s']]
+hc_eval = hc_copy[['id', 'label', 'summary', 'concreteness', 'analytic', 'tone', 'i', 'posemo', 'negemo','cogproc', 'avg_narrative_flow_summaries', 'avg_narrative_flow_events', 'avg_narrative_flow_empty']]
 #print(len(hc_eval))
 
 
@@ -79,25 +80,30 @@ def paired_t_test(duplicates, metric):
     t_metric = scipy.stats.ttest_rel(imagined, recalled)
     return t_metric, effect_size
 
-metrics = {'concreteness', 'analytic', 'tone', 'i',	'posemo', 'negemo',	'cogproc', 'avg_narrative_flow_s'}
+metrics = ['concreteness', 'analytic', 'tone', 'i',	'posemo', 'negemo',	'cogproc', 'avg_narrative_flow_summaries', 'avg_narrative_flow_events', 'avg_narrative_flow_empty']
 metric_scores = dict()
 
 for m in metrics:
     ttest1,  es1 = paired_t_test(True, m)
     tstat1, pvalue1 = ttest1
-    #direction1 =
+    direction1 = 'imagined'
+    if tstat1<0:
+        direction1 = 'recalled'
     ttest2, es2 = paired_t_test(False, m)
     tstat2, pvalue2 = ttest2
-    scores1 = [tstat1, pvalue1, es1]
-    scores2 = [tstat2, pvalue2, es2]
+    direction2 = 'imagined'
+    if tstat2 < 0:
+        direction2 = 'recalled'
+    scores1 = [tstat1, pvalue1, es1, direction1]
+    scores2 = [tstat2, pvalue2, es2, direction2]
     #print(m+' with duplicates: ', paired_t_test(True, m))
-    print(m+' with duplicates:  t-statistic: ', tstat1, ', p-value: ', pvalue1, ' effect size: ', es1)
-    print(m+' without duplicates: t-statistic: ', tstat2, ', p-value: ', pvalue2,' effect size: ', es2)
+    print(m+' with duplicates:  t-statistic: ', tstat1, ', p-value: ', pvalue1, ' effect size: ', es1, ' direction: ', direction1)
+    print(m+' without duplicates: t-statistic: ', tstat2, ', p-value: ', pvalue2,' effect size: ', es2, ' direction: ', direction2)
     metric_scores[m+' with duplicates']= scores1
     metric_scores[m+' without duplicates'] = scores2
 
 
-hc_metrics = pd.DataFrame(metric_scores,  index=['t-statistic', 'pvalue', 'effect size'])
+hc_metrics = pd.DataFrame(metric_scores,  index=['t-statistic', 'p-value', 'effect size', 'direction'])
 
 hc_eval.to_csv(r'../../data/hc_eval.csv', index=False)
 hc_metrics.to_csv(r'../../data/hc_metrics.csv')

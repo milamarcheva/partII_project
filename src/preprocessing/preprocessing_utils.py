@@ -10,10 +10,10 @@ def get_docs(hc):
     docs = [nlp(story) for story in hc['story']]
     return docs
 
-
-def get_tokens(docs):
-    tokens = [[t for t in doc] for doc in docs]
-    return tokens
+# not necessary
+# def get_tokens(docs):
+#     tokens = [[t for t in doc] for doc in docs]
+#     return tokens
 
 
 def _preprocess_token(t):

@@ -41,6 +41,6 @@ score_correct =35.47/12
 #print(score_correct)
 assert score_function == score_correct
 
-# hc['concreteness'] = [get_concreteness_score(story) for story in hc['tokens_concreteness']]
-#
-# hc.to_csv(r'../../data/hc_analysis.csv', index=False)
+hc['concreteness'] = [get_concreteness_score(story) for story in hc['tokens_concreteness']]
+
+hc.to_csv(r'../../data/hc_analysis.csv', index=False)

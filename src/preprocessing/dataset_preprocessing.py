@@ -1,5 +1,5 @@
 import pandas as pd
-from src.preprocessing.preprocessing_utils import get_docs, get_tokens, get_tokens_concreteness, get_sentences, \
+from src.preprocessing.preprocessing_utils import get_docs, get_tokens_concreteness, get_sentences, \
     get_encoded_sentences, get_encoded_contexts, get_encoded_sentences_len
 
 hc = pd.read_csv(r'../../data/hc_analysis.csv')
