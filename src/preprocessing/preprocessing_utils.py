@@ -54,6 +54,6 @@ def get_encoded_sentences_len(encoded_sentences):
     return encoded_sentences_len
 
 
-def get_encoded_contexts(contexts):
-    encoded_contexts = _encode_list_of_inputs(contexts)
-    return encoded_contexts
+def get_encoded_topics(topics):
+    encoded_topics = _encode_list_of_inputs(topics)
+    return encoded_topics

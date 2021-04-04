@@ -23,12 +23,8 @@ summaries = hc_analysis['summary']
 
 #dropping the rows where the summary is not in the intersection
 for i in range(len(hc_analysis)):
-    #summary = hc_analysis['summary']
     summary = summaries[i]
-    #label = hc_analysis['label'].index[i]
-    #if (label == 'imagined' and summary not in recalled_summaries) or (label == 'recalled' and summary not in imagined_summaries):
     if summary not in intersection:
-        #print(summary)
         hc_analysis.drop(hc_analysis.index[hc_analysis['summary']==summary], inplace=True)
 
 hc_analysis.reset_index(drop='True', inplace=True)
@@ -44,11 +40,6 @@ for summary in remaining_summaries:
         prompts[summary] = 1
 
 print(Counter(prompts.values()))
-
-# for i in d:
-#     if d[i] == 10:
-#         print(i)
-
 
 hc_analysis.to_csv(r'../../data/hc_analysis.csv', index=False)
 

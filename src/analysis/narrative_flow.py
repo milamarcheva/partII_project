@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from ast import literal_eval
-from src.analysis.narrative_flow_utils import get_narrative_flow
+#from src.analysis.narrative_flow_utils import get_narrative_flow
 
 hc = pd.read_csv(r'../../data/hc_analysis.csv')
 
@@ -29,6 +29,15 @@ logprobs_chain_empty =  [literal_eval(l) for l in hc['logprobs_chain_empty']]
 # hc['logprobs_chain_s'] = logprobs_chain_s
 # print('added chain to hc')
 
+def get_narrative_flow(logprobs_bag, logprobs_chain, encoded_sentences_len):
+    number_of_sentences = len(logprobs_bag)
+    narrative_flow = [0] * number_of_sentences
+    for i in range(number_of_sentences):
+        sentence_len = np.array(encoded_sentences_len[i])
+        diff = np.array(logprobs_bag[i]) - np.array(logprobs_chain[i])
+        narrative_flow[i] = -(diff/sentence_len)
+    return narrative_flow
+
 hc['narrative_flow_summaries'] = get_narrative_flow(logprobs_bag_summaries, logprobs_chain_summaries, encoded_sentences_len)
 hc['narrative_flow_events'] = get_narrative_flow(logprobs_bag_events, logprobs_chain_events, encoded_sentences_len)
 hc['narrative_flow_empty'] = get_narrative_flow(logprobs_bag_empty, logprobs_chain_empty, encoded_sentences_len)
@@ -39,5 +48,6 @@ hc['avg_narrative_flow_events'] = [np.average(nfs) for nfs in hc['narrative_flow
 hc['avg_narrative_flow_empty'] = [np.average(nfs) for nfs in hc['narrative_flow_empty']]
 print('calculated avg nf')
 
-hc.to_csv(r'../../data/hc_analysis.csv', index=False)
-print('wrote to hc')
+# hc.to_csv(r'../../data/hc_analysis.csv', index=False)
+# print('wrote to hc')
+

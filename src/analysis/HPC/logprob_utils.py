@@ -1,5 +1,4 @@
 import torch
-from joblib import Parallel, delayed
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 #eot_id = 50256
@@ -12,7 +11,6 @@ if torch.cuda.is_available():
 
 model = GPT2LMHeadModel.from_pretrained('gpt2')
 model = model.to(device)
-#model.eval()
 
 def _wrap_with_eot(ids):
     wrapped_list = [eot_id] + ids + [eot_id]
@@ -32,11 +30,9 @@ def _get_chain_input(encoded_topic, encoded_sentences_of_story):
 
 def _get_chain_input_all_prev_sents(encoded_topic, encoded_sentences_of_story):
     n = len(encoded_sentences_of_story)
-    #print(n)
     sentence_chain = encoded_topic.copy()
     cm_input = [0]*n
     for i in range(n):
-        #print(i)
         sentence_chain.extend(encoded_sentences_of_story[i])
         cm_input[i] = (_wrap_with_eot(sentence_chain))
     return cm_input
@@ -51,30 +47,29 @@ def get_inputs(model_name, encoded_topics, encoded_sentences):
         inputs = [_get_chain_input_all_prev_sents(encoded_topics[i], encoded_sentences[i]) for i in range(n)]
     return inputs
 
-def _get_sentence_log_probability(encoded_input, context_len):
-    sentence_log_probability = 0
+def _get_sentence_logprobability(encoded_input, context_len):
+    sentence_logprobability = 0
+    offset = context_len + 1
+
     input_ids = torch.tensor([encoded_input])
     input_ids = input_ids.to(device)
 
-    offset = context_len + 1
-
     with torch.no_grad():
-        #outputs = model(input_ids).to(device)
         outputs = model(input_ids)
         logits = outputs[0][0]
-        log_probs = torch.nn.functional.log_softmax(logits, 1)
+        logprobs = torch.nn.functional.log_softmax(logits, 1)
 
-        for i in range(offset, len(input_ids[0]) - 1):
-            token_id = input_ids[0][i]
-            log_prob = log_probs[i - 1][token_id].item()
-            sentence_log_probability += log_prob
+    for i in range(offset, len(input_ids[0]) - 1):
+        token_id = input_ids[0][i]
+        logprob = logprobs[i - 1][token_id].item()
+        sentence_logprobability += logprob
 
-        return sentence_log_probability
+    return sentence_logprobability
 
 
 def _get_story_sentences_logprobs_bag(encoded_topic, inputs_for_story):
     context_len = len(encoded_topic)
-    story_sentences_logprobs = [_get_sentence_log_probability(encoded_input, context_len) for encoded_input in
+    story_sentences_logprobs = [_get_sentence_logprobability(encoded_input, context_len) for encoded_input in
                                 inputs_for_story]
     return story_sentences_logprobs
 
@@ -83,15 +78,15 @@ def _get_story_sentences_logprobs_chain(history_type, encoded_topic, encoded_sen
     n = len(inputs_for_story)
     context_len = len(encoded_topic)
     story_sentences_logprobs = [0]*n
-    story_sentences_logprobs[0] = _get_sentence_log_probability(inputs_for_story[0], context_len)
+    story_sentences_logprobs[0] = _get_sentence_logprobability(inputs_for_story[0], context_len)
     if history_type == 'one_prev_sent':
         for i in range(1, n):
             context_len = len(encoded_sentences_of_story[i - 1])
-            story_sentences_logprobs[i] = _get_sentence_log_probability(inputs_for_story[i], context_len)
+            story_sentences_logprobs[i] = _get_sentence_logprobability(inputs_for_story[i], context_len)
     elif history_type == 'all_prev_sents':
         for i in range(1,n):
             context_len += len(encoded_sentences_of_story[i - 1])
-            story_sentences_logprobs[i] = _get_sentence_log_probability(inputs_for_story[i], context_len)
+            story_sentences_logprobs[i] = _get_sentence_logprobability(inputs_for_story[i], context_len)
     return story_sentences_logprobs
 
 def get_stories_logprobs_bag(encoded_topics, inputs):
