@@ -20,15 +20,15 @@ yi = np.random.normal(0.0,0.1,len(ar_hc_imagined))
 fig,ax=plt.subplots(2)
 fig.tight_layout(pad=1)
 
-ax[0].scatter(ar_hc_recalled,yr,color='g',alpha=1.0,s=0.2)
-ax[0].scatter(ar_hc_imagined,yi,color='r',alpha=1.0,s=0.2)
+ax[0].scatter(ar_hc_recalled,yr,color='cyan',alpha=1.0,s=0.2)
+ax[0].scatter(ar_hc_imagined,yi,color='purple',alpha=1.0,s=0.2)
 ax[0].set_ylim([-1,1])
 #ax[0].title.settext('Concreteness of each story, recalled in green and imagined in red')
 
 minval = min(ar_hc_recalled+ar_hc_imagined)
 maxval = max(ar_hc_recalled+ar_hc_imagined)
-ax[1].hist(ar_hc_recalled,bins=100,range=[minval,maxval],color='g', histtype='step' )
-ax[1].hist(ar_hc_imagined,bins=100,range=[minval,maxval],color='r', histtype='step' )
+ax[1].hist(ar_hc_recalled,bins=100,range=[minval,maxval],color='cyan', histtype='step' )
+ax[1].hist(ar_hc_imagined,bins=100,range=[minval,maxval],color='purple', histtype='step' )
 #ax[1].title.set_text('Concreteness of recalled in green and imagined in red')
 
 

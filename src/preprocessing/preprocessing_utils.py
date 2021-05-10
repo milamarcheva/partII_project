@@ -1,19 +1,34 @@
 import spacy
+import string
+from collections import OrderedDict
 from transformers import GPT2Tokenizer
 
 nlp = spacy.load('en_core_web_lg')
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2', add_prefix_space=True)
 eot_id = tokenizer.eos_token_id #used in narrative_flow_utils
 
+erroneous_correct_chars= OrderedDict([('â€š', ','), ('â€˜',"'"), ('â€™',"'"), ('â€œ','"'), ('â€','"'), ('\n', ' ')])
+numerical_entities = {'DATE', 'TIME', 'PERCENT', 'MONEY', 'QUANTITY', 'ORDINAL', 'CARDINAL'}
 
-def get_docs(hc):
-    docs = [nlp(story) for story in hc['story']]
+def _debug_utf8_encodings(story):
+    for erroneous_encoding in erroneous_correct_chars:
+        correct_encoding = erroneous_correct_chars[erroneous_encoding]
+        if erroneous_encoding in story:
+            story = story.replace(erroneous_encoding, correct_encoding)
+    return story
+
+
+def clean_news_stories(df):
+    cleaned_stories = []
+    for story in df['content']:
+        cleaned_stories.append(_debug_utf8_encodings(story))
+    # cleaned_stories = [_debug_utf8_encodings(story) for story in df['content']]
+    df['story'] = cleaned_stories
+
+
+def get_docs(df):
+    docs = [nlp(story) for story in df['story']]
     return docs
-
-# not necessary
-# def get_tokens(docs):
-#     tokens = [[t for t in doc] for doc in docs]
-#     return tokens
 
 
 def _preprocess_token(t):
@@ -32,6 +47,11 @@ def _preprocess_doc(doc):
 def get_tokens_concreteness(docs):
     tokens = [_preprocess_doc(doc) for doc in docs]
     return tokens
+
+
+def get_named_entities(docs):
+  named_entities = [set(ne.text for ne in doc.ents if ne.label_ not in numerical_entities) for doc in docs]
+  return named_entities
 
 
 def get_sentences(docs):
@@ -57,3 +77,4 @@ def get_encoded_sentences_len(encoded_sentences):
 def get_encoded_topics(topics):
     encoded_topics = _encode_list_of_inputs(topics)
     return encoded_topics
+

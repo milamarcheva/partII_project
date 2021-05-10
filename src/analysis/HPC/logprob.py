@@ -6,7 +6,7 @@ hc = pd.read_csv(r'partII_project/data/hc_analysis.csv')
 
 encoded_summaries = [literal_eval(l) for l in hc['encoded_summaries']]
 encoded_events = [literal_eval(l) for l in hc['encoded_events']]
-empty_context = []*len(encoded_events)
+empty_context = ['']*len(encoded_events)
 encoded_sentences = [literal_eval(l) for l in hc['encoded_sentences']]
 encoded_sentences_len = [literal_eval(l) for l in hc['encoded_sentences_len']]
 
