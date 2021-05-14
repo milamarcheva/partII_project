@@ -21,12 +21,12 @@ if __name__ == "__main__":
 
     if mode == 'hc':
         hc = pd.read_csv(r'../../data/hc_analysis.csv')
-        liwc_results = pd.read_csv(r'../../data/LIWC_results.csv')
+        liwc_results = pd.read_csv(r'../../resources/LIWC_results.csv')
         add_liwc_results(hc, liwc_results)
         hc.to_csv(r'../../data/hc_analysis.csv', index=False)
 
     elif mode == 'news':
         news_df = pd.read_csv(r'../../data/news_analysis.csv')
-        liwc_results = pd.read_csv(r'../../data/LIWC_results_news.csv')
+        liwc_results = pd.read_csv(r'../../resources/LIWC_results_news.csv')
         add_liwc_results(news_df, liwc_results)
         news_df.to_csv(r'../../data/news_analysis.csv', index=False)
