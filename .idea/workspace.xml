@@ -20,23 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7080680-b132-47b2-a501-98e259ab5b8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/preprocessing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/preprocessing/dataset_reshaping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/preprocessing/preprocessing_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/concreteness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/concreteness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/liwc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/liwc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/narrative_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/narrative_flow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/concreteness.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/concreteness.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hc_concreteness.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hc_trunc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hc_analysis.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installation_checks/other_packages_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/installation_checks/other_packages_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installation_checks/preprocessing_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/installation_checks/preprocessing_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/dataset_preprocessing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/dataset_reshaping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/logprob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/concreteness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/concreteness.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/narrative_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/narrative_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/plot_concretness.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/plot_nf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preprocessing/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jYgCDDKfy5ZZk9VRCVSEeibySf" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -65,14 +63,16 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\milam\Desktop\partII_project\src\analysis\HPC\deprecated" />
       <recent name="C:\Users\milam\Desktop\partII_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.liwc">
+  <component name="RunManager" selected="Python.plot">
     <configuration name="concreteness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,28 +86,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/analysis/concreteness.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dataset_preprocessing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="partII_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/preprocessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="--mode hc" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -123,33 +102,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/dataset_preprocessing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dataset_reshaping (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="partII_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/preprocessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/preprocessing/dataset_reshaping.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" />
+      <option name="PARAMETERS" value="--mode test" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -157,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="liwc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,12 +123,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/analysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/evaluation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/analysis/liwc.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/evaluation/eval.py" />
+      <option name="PARAMETERS" value="--mode hc" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -178,13 +136,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="partII_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/evaluation/plot.py" />
+      <option name="PARAMETERS" value="--mode concreteness" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_nf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="partII_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/evaluation/plot_nf.py" />
+      <option name="PARAMETERS" value="--mode hc" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.eval" />
+      <item itemvalue="Python.dataset_preprocessing" />
+      <item itemvalue="Python.plot_nf" />
+      <item itemvalue="Python.plot" />
+      <item itemvalue="Python.concreteness" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.liwc" />
+        <item itemvalue="Python.plot" />
+        <item itemvalue="Python.plot_nf" />
         <item itemvalue="Python.concreteness" />
-        <item itemvalue="Python.dataset_preprocessing (1)" />
+        <item itemvalue="Python.eval" />
         <item itemvalue="Python.dataset_preprocessing" />
-        <item itemvalue="Python.dataset_reshaping (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +204,28 @@
       <option name="presentableId" value="Default" />
       <updated>1603986314162</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updates 28/01">
+      <created>1611824017002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611824017002</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updates 28">
+      <created>1617218931391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617218931391</updated>
+    </task>
+    <task id="LOCAL-00003" summary="variable rename for clarity">
+      <created>1617220387211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617220387211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,53 +242,116 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updates 28/01" />
+    <MESSAGE value="variable rename for clarity" />
+    <option name="LAST_COMMIT_MESSAGE" value="variable rename for clarity" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1506" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608499607137">
+    <state x="2303" y="235" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620852788277">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617104504722" />
+    <state x="2302" y="289" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619609307699" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639@0.0.1280.639" timestamp="1619530831004" />
+    <state x="2303" y="235" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620852788277" />
+    <state x="255" y="154" width="728" height="526" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1619614961470" />
+    <state x="2407" y="60" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1619003492600">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1433" y="63" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617035457910" />
+    <state x="2407" y="60" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619003492600" />
+    <state x="-1440" y="188" width="413" height="497" key="#com.intellij.tools.ToolEditorDialog" timestamp="1617035626061">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1506" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1608499607137" />
-    <state x="-1186" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608311637033">
+    <state x="-1440" y="188" width="413" height="497" key="#com.intellij.tools.ToolEditorDialog/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617035626061" />
+    <state x="2407" y="110" key="FileChooserDialogImpl" timestamp="1620643290650">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1433" y="113" key="FileChooserDialogImpl/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617036422565" />
+    <state x="2407" y="110" key="FileChooserDialogImpl/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619609304859" />
+    <state x="2407" y="110" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620643290650" />
+    <state width="1899" height="65" key="GridCell.Tab.0.bottom" timestamp="1620854609903">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="440" key="GridCell.Tab.0.bottom/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617111832651" />
+    <state width="1259" height="298" key="GridCell.Tab.0.bottom/0.0.1280.639/1920.0.1920.1040@0.0.1280.639" timestamp="1617290336021" />
+    <state width="1899" height="394" key="GridCell.Tab.0.bottom/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619610822992" />
+    <state width="1259" height="110" key="GridCell.Tab.0.bottom/0.0.1280.639@0.0.1280.639" timestamp="1619613890710" />
+    <state width="1899" height="167" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1615458971274" />
+    <state width="1259" height="510" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1620200381371" />
+    <state width="1899" height="65" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620854609903" />
+    <state width="1259" height="3" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620305195247" />
+    <state width="1899" height="65" key="GridCell.Tab.0.center" timestamp="1620854609903">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="440" key="GridCell.Tab.0.center/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617111832651" />
+    <state width="1259" height="298" key="GridCell.Tab.0.center/0.0.1280.639/1920.0.1920.1040@0.0.1280.639" timestamp="1617290336021" />
+    <state width="1899" height="394" key="GridCell.Tab.0.center/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619610822992" />
+    <state width="1259" height="110" key="GridCell.Tab.0.center/0.0.1280.639@0.0.1280.639" timestamp="1619613890710" />
+    <state width="1899" height="167" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1615458971274" />
+    <state width="1259" height="510" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1620200381371" />
+    <state width="1899" height="65" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620854609903" />
+    <state width="1259" height="3" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620305195247" />
+    <state width="1899" height="65" key="GridCell.Tab.0.left" timestamp="1620854609903">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="440" key="GridCell.Tab.0.left/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617111832651" />
+    <state width="1259" height="298" key="GridCell.Tab.0.left/0.0.1280.639/1920.0.1920.1040@0.0.1280.639" timestamp="1617290336021" />
+    <state width="1899" height="394" key="GridCell.Tab.0.left/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619610822992" />
+    <state width="1259" height="110" key="GridCell.Tab.0.left/0.0.1280.639@0.0.1280.639" timestamp="1619613890710" />
+    <state width="1899" height="167" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1615458971273" />
+    <state width="1259" height="510" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1620200381371" />
+    <state width="1899" height="65" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620854609903" />
+    <state width="1259" height="3" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620305195247" />
+    <state width="1899" height="65" key="GridCell.Tab.0.right" timestamp="1620854609903">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="440" key="GridCell.Tab.0.right/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617111832651" />
+    <state width="1259" height="298" key="GridCell.Tab.0.right/0.0.1280.639/1920.0.1920.1040@0.0.1280.639" timestamp="1617290336021" />
+    <state width="1899" height="394" key="GridCell.Tab.0.right/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619610822992" />
+    <state width="1259" height="110" key="GridCell.Tab.0.right/0.0.1280.639@0.0.1280.639" timestamp="1619613890710" />
+    <state width="1899" height="167" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1615458971274" />
+    <state width="1259" height="510" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1620200381371" />
+    <state width="1899" height="65" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620854609903" />
+    <state width="1259" height="3" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620305195247" />
+    <state width="1899" height="351" key="GridCell.Tab.1.bottom" timestamp="1620678931879">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="351" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620678931879" />
+    <state width="1899" height="351" key="GridCell.Tab.1.center" timestamp="1620678931879">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="351" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620678931879" />
+    <state width="1899" height="351" key="GridCell.Tab.1.left" timestamp="1620678931879">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="351" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620678931879" />
+    <state width="1899" height="351" key="GridCell.Tab.1.right" timestamp="1620678931879">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="351" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620678931879" />
+    <state x="2282" y="329" key="SettingsEditor" timestamp="1620820586348">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1558" y="332" key="SettingsEditor/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617104481425" />
+    <state x="2282" y="329" key="SettingsEditor/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617218907369" />
+    <state x="2282" y="329" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620820586348" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1617007484935" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617220395964">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617220395964" />
+    <state x="-1353" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613654847330">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1186" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1608311637033" />
-    <state x="-1230" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605537888221">
-      <screen x="-1920" y="3" width="1920" height="1040" />
+    <state x="-1353" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1613654847330" />
+    <state x="1920" y="0" width="1569" height="719" key="dock-window-1" timestamp="1619170642845">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1230" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1605537888221" />
-    <state x="-1180" y="265" key="FileChooserDialogImpl" timestamp="1606417470799">
-      <screen x="-1920" y="3" width="1920" height="1040" />
+    <state x="1920" y="0" width="1569" height="719" key="dock-window-1/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619170642845" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618837231913">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="265" key="FileChooserDialogImpl/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1606417470799" />
-    <state x="-1180" y="266" key="FileChooserDialogImpl/0.0.1280.680/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604398396452" />
-    <state width="1899" height="221" key="GridCell.Tab.0.bottom" timestamp="1608502765017">
-      <screen x="-1920" y="3" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="221" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1608502765017" />
-    <state width="1259" height="280" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
-    <state width="1224" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604167034841" />
-    <state width="1899" height="221" key="GridCell.Tab.0.center" timestamp="1608502765017">
-      <screen x="-1920" y="3" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="221" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1608502765017" />
-    <state width="1259" height="280" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
-    <state width="1224" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604167034841" />
-    <state width="1899" height="221" key="GridCell.Tab.0.left" timestamp="1608502765017">
-      <screen x="-1920" y="3" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="221" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1608502765017" />
-    <state width="1259" height="280" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
-    <state width="1224" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604167034840" />
-    <state width="1899" height="221" key="GridCell.Tab.0.right" timestamp="1608502765017">
-      <screen x="-1920" y="3" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="221" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1608502765017" />
-    <state width="1259" height="280" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@0.0.1280.680" timestamp="1607029530457" />
-    <state width="1224" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604167034841" />
-    <state x="-1707" y="3" key="SettingsEditor" timestamp="1608488505559">
-      <screen x="-1920" y="3" width="1920" height="1040" />
-    </state>
-    <state x="-1707" y="3" key="SettingsEditor/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1608488505559" />
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603986411465" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618837231913" />
   </component>
 </project>
