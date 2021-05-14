@@ -20,21 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7080680-b132-47b2-a501-98e259ab5b8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/logprob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/LIWC_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/LIWC_results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/LIWC_results_news.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/LIWC_results_news.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/concreteness.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/concreteness.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hippoCorpusV2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/hippoCorpusV2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analysis/concreteness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/concreteness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/narrative_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/narrative_flow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/plot_concretness.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/plot_nf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/liwc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/liwc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preprocessing/dataset_reshaping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/dataset_reshaping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\milam\Desktop\partII_project\resources" />
       <recent name="C:\Users\milam\Desktop\partII_project\src\analysis\HPC\deprecated" />
       <recent name="C:\Users\milam\Desktop\partII_project\src" />
     </key>

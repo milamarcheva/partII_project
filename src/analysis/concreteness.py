@@ -6,7 +6,7 @@ import scipy.stats as stats
 from ast import literal_eval
 
 #read Brysbaert's lexiocn
-concreteness_lexicon = pd.read_excel(r'../../data/concreteness.xlsx', engine='openpyxl')
+concreteness_lexicon = pd.read_excel(r'../../resources/concreteness.xlsx', engine='openpyxl')
 
 # Create vocab from lexicon (set)
 lex = dict(zip(concreteness_lexicon.Word, concreteness_lexicon.Conc_M))

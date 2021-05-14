@@ -61,7 +61,7 @@ if __name__ == "__main__":
     mode=args['mode']
 
     if mode == 'hc':
-        hc = pd.read_csv(r'../../data/hippoCorpusV2.csv')
+        hc = pd.read_csv(r'../../resources/hippoCorpusV2.csv')
         hc_copy = hc.copy()
 
         #leaving only the necessary columns and renaming them for ease of use
