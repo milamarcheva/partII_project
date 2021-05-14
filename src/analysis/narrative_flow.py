@@ -59,8 +59,9 @@ if __name__ == "__main__":
         hc['avg_narrative_flow_empty'] = [np.average(nfs) for nfs in hc['narrative_flow_empty']]
         print('calculated avg nf')
 
-        # hc.to_csv(r'../../data/hc_analysis.csv', index=False)
-        # print('wrote to hc')
+        hc.to_csv(r'../../data/hc_analysis.csv', index=False)
+        print('wrote to hc')
+
     elif mode == 'news':
         df = pd.read_csv(r'../../data/news_analysis.csv')
         print(df.columns)
@@ -78,5 +79,5 @@ if __name__ == "__main__":
         print('calculated avg nf')
 
         df.to_csv(r'../../data/news_analysis.csv', index=False)
-        # print('wrote to hc')
+        print('wrote to hc')
 

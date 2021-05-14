@@ -67,6 +67,8 @@ def get_plots():
     bins = 50
     #plt.plot(x,len(percentage_in_lex)*((mx-mn)/bins)*stats.norm.pdf(x,mu,sigma), color='midnightblue')
     plt.hist(percentage_in_lex,bins, color = 'thistle' )
+    plt.tick_params(axis='x', labelsize=30)
+    plt.tick_params(axis='y', labelsize=30)
     plt.show()
 
     # #Bigram count
@@ -81,6 +83,8 @@ def get_plots():
     bins = 5
     #plt.plot(x,len(percentage_bigrams)*((mx-mn)/bins)*stats.norm.pdf(x,mu,sigma), color='midnightblue')
     plt.hist(percentage_bigrams,bins, color = 'thistle' )
+    plt.tick_params(axis='x', labelsize=30)
+    plt.tick_params(axis='y', labelsize=30)
     plt.show()
 
 if __name__ == "__main__":
@@ -96,6 +100,7 @@ if __name__ == "__main__":
     if mode == 'hc':
         hc = pd.read_csv(r'../../data/hc_analysis.csv')
         hc['concreteness'] = [get_concreteness_score(literal_eval(story)) for story in hc['tokens_concreteness']]
+        get_plots()
         # hc.to_csv(r'../../data/hc_analysis.csv', index=False)
         print_number_of_bigrams()
 

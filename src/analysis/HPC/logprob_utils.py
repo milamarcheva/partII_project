@@ -3,7 +3,7 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 #eot_id = 50256
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2', add_prefix_space=True)
-eot_id = tokenizer.eos_token_id #used in narrative_flow_utils
+eot_id = tokenizer.eos_token_id
 
 device = 'cpu'
 if torch.cuda.is_available():
@@ -16,11 +16,9 @@ def _wrap_with_eot(ids):
     wrapped_list = [eot_id] + ids + [eot_id]
     return wrapped_list
 
-
 def _get_bag_input(encoded_topic, encoded_sentences_of_story):
     bm_input = [_wrap_with_eot((encoded_topic + encoded_s)) for encoded_s in encoded_sentences_of_story]
     return bm_input
-
 
 def _get_chain_input(encoded_topic, encoded_sentences_of_story):
     cm_input = [_wrap_with_eot(encoded_topic + encoded_sentences_of_story[0])]
@@ -51,7 +49,7 @@ def _get_sentence_logprobability(encoded_input, context_len):
     sentence_logprobability = 0
     offset = context_len + 1
 
-    input_ids = torch.tensor([encoded_input])
+    input_ids = torch.tensor([encoded_input[:1024]])
     input_ids = input_ids.to(device)
 
     with torch.no_grad():
@@ -89,11 +87,10 @@ def _get_story_sentences_logprobs_chain(history_type, encoded_topic, encoded_sen
             story_sentences_logprobs[i] = _get_sentence_logprobability(inputs_for_story[i], context_len)
     return story_sentences_logprobs
 
+
 def get_stories_logprobs_bag(encoded_topics, inputs):
     n = len(encoded_topics)
-    #logprobs_bag = [_get_story_sentences_logprobs_bag(encoded_topics[i], inputs[i]) for i in range(n)]
     logprobs_bag = [0]*n
-    #logprobs_bag = Parallel(n_jobs=2)(delayed(_get_story_sentences_logprobs_bag)(encoded_topics[i], inputs[i]) for i in range(n))
     for i in range(n):
         print('story #',i)
         logprobs_bag[i] = _get_story_sentences_logprobs_bag(encoded_topics[i], inputs[i])
@@ -103,12 +100,9 @@ def get_stories_logprobs_bag(encoded_topics, inputs):
 
 def get_stories_logprobs_chain(history_type, encoded_topics, encoded_sentences, inputs):
     n = len(encoded_topics)
-    #logprobs_chain = [_get_story_sentences_logprobs_chain(history_type, encoded_topics[i], encoded_sentences[i], inputs[i]) for i in range(n)]
     logprobs_chain = [0]*n
-    #logprobs_chain = Parallel(n_jobs=4)(delayed(_get_story_sentences_logprobs_chain)(history_type,encoded_topics[i], encoded_sentences[i], inputs[i]) for i in range(n))
     for i in range(n):
         print('story #',i)
-        #print(encoded_topics[i])
         logprobs_chain[i] = _get_story_sentences_logprobs_chain(history_type,encoded_topics[i], encoded_sentences[i], inputs[i])
     return logprobs_chain
 

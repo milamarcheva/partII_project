@@ -19,130 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7080680-b132-47b2-a501-98e259ab5b8b" name="Default Changelist" comment="variable rename for clarity">
-      <change afterPath="$PROJECT_DIR$/data/LIWC_results_news.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/news_analysis.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/news_metrics.csv" afterDir="false" />
+    <list default="true" id="b7080680-b132-47b2-a501-98e259ab5b8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_bag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_chain" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_chain_1000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_chain_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_chain_3000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_chain_4000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_chain_5000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_chain_6000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_chain_all" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_gpu_bag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/errfile_gpu_chain" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/hello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_bag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_chain" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_chain_1000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_chain_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_chain_3000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_chain_4000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_chain_5000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_chain_6000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_chain_all" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_gpu_bag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/logfile_gpu_chain" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.33608103" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.33608104" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.33629390" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.33633364" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.33942698" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.33995554" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34109231" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34109236" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34109244" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34192645" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34192673" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34192914" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34193305" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34193323" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34193683" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34274553" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34276228" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34276230" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34276232" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34276233" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34276234" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34863445" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34863498" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34864041" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34864184" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34864250" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34864258" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34864494" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34864603" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/machine.file.34869773" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-33633364.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-33942698.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-33995554.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34109231.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34109236.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34109244.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34192645.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34192673.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34192914.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34193305.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34193323.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34193683.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34274553.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34276228.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34276230.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34276232.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34276233.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34276234.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34863423.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34863429.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34863445.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34863498.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34864041.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34864184.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34864250.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34864258.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34864494.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34864603.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm-34869773.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit.peta4-cclake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit.peta4-knl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit.peta4-skylake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit.wilkes2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit_GPU_attempt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit_GPU_bag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit_GPU_chain_all" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit_bag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit_ch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit_chain" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPC_logs/slurm_submit_chain_all_prev_sents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hc_eval.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/cocnreteness_bigrams.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/concreteness_graphs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/concreteness_graphs_hist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/concreteness_graphs_scatter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/concreteness_histogram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/concreteness_scatterplot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/concreteness_words_in_lex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/concretenss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/hc_analysis_graph.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figs/nf_normals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/deprecated/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/logprob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/HPC/logprob_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analysis/concreteness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/concreteness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/concreteness_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/liwc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/liwc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analysis/narrative_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/narrative_flow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/narrative_flow_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/evaluation/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/plot_concretness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/plot_concretness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/plot_nf.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/plot_nf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/dataset_reshaping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/dataset_reshaping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/preprocessing_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/preprocessing_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/preprocessing_utils_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/plot_concretness.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/plot_nf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preprocessing/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +64,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/preprocessing/dataset_preprocessing.py" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -180,7 +72,7 @@
       <recent name="C:\Users\milam\Desktop\partII_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.plot_nf">
+  <component name="RunManager" selected="Python.plot">
     <configuration name="concreteness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,7 +86,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/analysis/concreteness.py" />
-      <option name="PARAMETERS" value="--mode news" />
+      <option name="PARAMETERS" value="--mode hc" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -236,7 +128,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/evaluation/eval.py" />
-      <option name="PARAMETERS" value="--mode news" />
+      <option name="PARAMETERS" value="--mode hc" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -244,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="liwc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="partII_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,12 +144,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/analysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/evaluation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/analysis/liwc.py" />
-      <option name="PARAMETERS" value="--mode news" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/evaluation/plot.py" />
+      <option name="PARAMETERS" value="--mode concreteness" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -278,7 +170,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/evaluation/plot_nf.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="--mode hc" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -287,19 +179,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.concreteness" />
       <item itemvalue="Python.eval" />
       <item itemvalue="Python.dataset_preprocessing" />
-      <item itemvalue="Python.liwc" />
       <item itemvalue="Python.plot_nf" />
+      <item itemvalue="Python.plot" />
+      <item itemvalue="Python.concreteness" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.plot" />
         <item itemvalue="Python.plot_nf" />
-        <item itemvalue="Python.dataset_preprocessing" />
-        <item itemvalue="Python.eval" />
-        <item itemvalue="Python.liwc" />
         <item itemvalue="Python.concreteness" />
+        <item itemvalue="Python.eval" />
+        <item itemvalue="Python.dataset_preprocessing" />
       </list>
     </recent_temporary>
   </component>
@@ -355,13 +247,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="variable rename for clarity" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2303" y="235" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620643295188">
+    <state x="2303" y="235" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620852788277">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617104504722" />
     <state x="2302" y="289" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619609307699" />
     <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639@0.0.1280.639" timestamp="1619530831004" />
-    <state x="2303" y="235" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620643295188" />
+    <state x="2303" y="235" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620852788277" />
     <state x="255" y="154" width="728" height="526" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1619614961470" />
     <state x="2407" y="60" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1619003492600">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -378,7 +270,7 @@
     <state x="-1433" y="113" key="FileChooserDialogImpl/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617036422565" />
     <state x="2407" y="110" key="FileChooserDialogImpl/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619609304859" />
     <state x="2407" y="110" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620643290650" />
-    <state width="1899" height="334" key="GridCell.Tab.0.bottom" timestamp="1620645989948">
+    <state width="1899" height="65" key="GridCell.Tab.0.bottom" timestamp="1620854609903">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="440" key="GridCell.Tab.0.bottom/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617111832651" />
@@ -387,9 +279,9 @@
     <state width="1259" height="110" key="GridCell.Tab.0.bottom/0.0.1280.639@0.0.1280.639" timestamp="1619613890710" />
     <state width="1899" height="167" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1615458971274" />
     <state width="1259" height="510" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1620200381371" />
-    <state width="1899" height="334" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620645989948" />
+    <state width="1899" height="65" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620854609903" />
     <state width="1259" height="3" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620305195247" />
-    <state width="1899" height="334" key="GridCell.Tab.0.center" timestamp="1620645989948">
+    <state width="1899" height="65" key="GridCell.Tab.0.center" timestamp="1620854609903">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="440" key="GridCell.Tab.0.center/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617111832651" />
@@ -398,9 +290,9 @@
     <state width="1259" height="110" key="GridCell.Tab.0.center/0.0.1280.639@0.0.1280.639" timestamp="1619613890710" />
     <state width="1899" height="167" key="GridCell.Tab.0.center/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1615458971274" />
     <state width="1259" height="510" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1620200381371" />
-    <state width="1899" height="334" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620645989948" />
+    <state width="1899" height="65" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620854609903" />
     <state width="1259" height="3" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620305195247" />
-    <state width="1899" height="334" key="GridCell.Tab.0.left" timestamp="1620645989948">
+    <state width="1899" height="65" key="GridCell.Tab.0.left" timestamp="1620854609903">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="440" key="GridCell.Tab.0.left/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617111832651" />
@@ -409,9 +301,9 @@
     <state width="1259" height="110" key="GridCell.Tab.0.left/0.0.1280.639@0.0.1280.639" timestamp="1619613890710" />
     <state width="1899" height="167" key="GridCell.Tab.0.left/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1615458971273" />
     <state width="1259" height="510" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1620200381371" />
-    <state width="1899" height="334" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620645989948" />
+    <state width="1899" height="65" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620854609903" />
     <state width="1259" height="3" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620305195247" />
-    <state width="1899" height="334" key="GridCell.Tab.0.right" timestamp="1620645989948">
+    <state width="1899" height="65" key="GridCell.Tab.0.right" timestamp="1620854609903">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="440" key="GridCell.Tab.0.right/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617111832651" />
@@ -420,13 +312,30 @@
     <state width="1259" height="110" key="GridCell.Tab.0.right/0.0.1280.639@0.0.1280.639" timestamp="1619613890710" />
     <state width="1899" height="167" key="GridCell.Tab.0.right/0.0.1280.680/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1615458971274" />
     <state width="1259" height="510" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1620200381371" />
-    <state width="1899" height="334" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620645989948" />
+    <state width="1899" height="65" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620854609903" />
     <state width="1259" height="3" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620305195247" />
-    <state x="2282" y="329" key="SettingsEditor" timestamp="1617218907369">
+    <state width="1899" height="351" key="GridCell.Tab.1.bottom" timestamp="1620678931879">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="351" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620678931879" />
+    <state width="1899" height="351" key="GridCell.Tab.1.center" timestamp="1620678931879">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="351" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620678931879" />
+    <state width="1899" height="351" key="GridCell.Tab.1.left" timestamp="1620678931879">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="351" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620678931879" />
+    <state width="1899" height="351" key="GridCell.Tab.1.right" timestamp="1620678931879">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="351" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620678931879" />
+    <state x="2282" y="329" key="SettingsEditor" timestamp="1620820586348">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1558" y="332" key="SettingsEditor/0.0.1280.639/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1617104481425" />
     <state x="2282" y="329" key="SettingsEditor/0.0.1280.639/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617218907369" />
+    <state x="2282" y="329" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620820586348" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1617007484935" />
     <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617220395964">
       <screen x="1920" y="0" width="1920" height="1040" />
